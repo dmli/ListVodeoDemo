@@ -17,7 +17,7 @@ import java.io.IOException;
 
 /**
  * Created by ldm on 15/12/30.
- * 朋友圈-小视频播放器
+ * 用来播放列表视频的View
  */
 public class TextureVideoPlayView extends TextureView implements TextureView.SurfaceTextureListener, MediaPlayer.OnCompletionListener, MediaPlayer.OnPreparedListener, MediaPlayer.OnErrorListener {
 
