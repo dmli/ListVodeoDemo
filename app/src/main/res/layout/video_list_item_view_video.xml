@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00aadd"
+                android:orientation="vertical">
+
+
+    <com.dm.myapp.view.TextureVideoPlayView
+        android:id="@+id/video1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:contentDescription="@null"
+        android:scaleType="fitXY"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id="@+id/placeholderView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/video1"
+        android:layout_alignTop="@+id/video1"
+        android:background="#00aadd"
+        android:contentDescription="@null"
+        android:scaleType="center"
+        android:src="@mipmap/list_play_button"/>
+
+
+</RelativeLayout>
